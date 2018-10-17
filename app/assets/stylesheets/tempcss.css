@@ -1,0 +1,191 @@
+ body {
+     margin: 0 10%;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ h1 {
+     color: rgb(5, 71, 71);
+ }
+ 
+ p {
+     font-size: 1.2em;
+     letter-spacing: 1px;
+ }
+ 
+ p img {
+     width: auto;
+     height: auto;
+     padding: 5px;
+     margin: 20px;
+     border: 2px solid rgb(129, 129, 236)
+ }
+ 
+ a {
+     text-decoration: none;
+     font-size: 16px;
+     padding: 5px 20px;
+     background: #26c;
+     color: #eee;
+     transition: all 1s ease-in;
+ }
+ 
+ a:hover {
+     background: #eee;
+     color: #26c;
+ }
+ 
+ .btn {
+     border: none;
+     background: red;
+     padding: 5px 20px;
+     display: block;
+     color: #fffffe;
+     font-size: 16px;
+     font-weight: 600;
+     transition: all 1s ease-in;
+ }
+ 
+ .btn:hover {
+     background: yellow;
+ }
+ 
+ .error {
+     color: #e30c2d;
+     background: orange;
+     margin: 0 auto;
+     width: 100%;
+     height: auto;
+     padding: 10px 20px;
+ }
+ 
+ .error li {
+     /* padding: 1px 20px; */
+     margin: 0 20px;
+ }
+ 
+ input[type='text'] {
+     width: 100%;
+     padding: 10px 20px;
+ }
+ 
+ textarea {
+     width: 100%;
+     padding: 10px 20px;
+ }
+ 
+ table {
+     border-spacing: 0px;
+     margin-bottom: 10px;
+ }
+ 
+ p table,
+ th,
+ td {
+     padding: 5px;
+     /* text-align: center; */
+     font-size: 1.2em;
+     color: rgb(9, 145, 111);
+     border: 1px solid rgb(87, 230, 222);
+     border-collapse: collapse;
+ }
+ 
+ table tr td:first-child {
+     /* background-color:#e0e0e0;  */
+     width: 20%;
+     transition: all 1s ease-in;
+ }
+ 
+ table tr td:first-child:hover {
+     /* background-color:#aaa;  */
+ }
+ 
+ table tr td:nth-child(2) {
+     /* background-color:#e0e0e0;  */
+     width: 60%;
+     transition: all 1s ease-in;
+ }
+ 
+ table tr td:nth-child(3),
+ table tr td:nth-child(4) {
+     text-align: center;
+ }
+ 
+ th {
+     color: antiquewhite;
+     background-color: green;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #fff;
+ }
+ 
+ a:visited {
+     color: rgb(212, 212, 212);
+ }
+ 
+ .link {
+     background: #26c;
+     color: #eee;
+     transition: all 1s ease-in;
+ }
+ 
+ .link:hover {
+     background: #eee;
+     color: #26c;
+ }
+ 
+ table tr:hover {
+     background-color: lightgreen;
+ }
+ 
+ .edit_articles {
+     background: #f9b105;
+ }
+ 
+ .delete_article {
+     background: #e30c2d;
+ }
+ 
+ .title_link {
+     background: inherit;
+     color: inherit;
+     text-align: center;
+     padding: 5px;
+ }
+ 
+ .title_link:hover {
+     background: inherit;
+ }
+ 
+ .link,
+ .delete_article {
+     display: inline-block;
+     font-size: 16px;
+     padding: 5px 20px;
+     width: 90px;
+     height: auto;
+     text-align: center;
+ }
+ 
+ .links {
+     background: inherit;
+     color: #fff;
+ }
+ 
+ .links:hover {
+     background: inherit;
+ }
+ 
+ input[type=submit] {
+     background: #e30c2d;
+     color: #eee;
+     border: none;
+     padding: 10px 10px;
+ }
+ 
+ input[type=submit]:hover {
+     background: #f06075;
+     color: rgb(182, 177, 177);
+ }
